@@ -1,0 +1,36 @@
+.image-container{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.top-right{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+.top-left{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
